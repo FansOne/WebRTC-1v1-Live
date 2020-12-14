@@ -1,7 +1,7 @@
 module.exports = {
     filenameHashing:false,
     lintOnSave:false,
-    publicPath: process.env.NODE_ENV==='production'?'https://static.xuefu.com/xfwx/static/1v1':'/',
+    publicPath: process.env.NODE_ENV==='production'?'https://xxxx.com':'/',
     devServer: {
         overlay: { // 让浏览器 overlay 同时显示警告和错误
             warnings: true,
@@ -14,7 +14,7 @@ module.exports = {
         hotOnly: false,
         proxy: {
             "/api": {
-                target: "http://sit-wx.xuefu.com/api",
+                target: "http://xxx.com/api",
                 secure: true,
                 changeOrigin: true,
                 pathRewrite: {

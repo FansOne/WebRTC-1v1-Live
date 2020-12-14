@@ -7,9 +7,9 @@ import {
 var key = ''
 // 配置
 const cosConfig = {
-	Bucket: 'xfky-1255765740',
+	Bucket: 'xxx',
 	Region: 'ap-beijing',
-	Domain: 'https://sit-wx.xuefu.com'
+	Domain: 'https://xxx.com'
 }
 
 // 初始化实例
