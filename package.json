@@ -1,0 +1,41 @@
+{
+  "name": "web-trtc-1v1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "core-js": "^3.6.4",
+    "element-ui": "^2.14.0",
+    "js-md5": "^0.7.3",
+    "lib-flexible": "^0.3.2",
+    "normalize.css": "^8.0.1",
+    "screenfull": "^5.0.2",
+    "spark-md5": "^3.0.1",
+    "tim-js-sdk": "^2.8.2",
+    "trtc-js-sdk": "^4.6.6",
+    "v-viewer": "^1.5.1",
+    "vue": "^2.6.11",
+    "vue-drag-resize": "^1.4.2",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.2",
+    "px2rem-loader": "^0.1.9",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

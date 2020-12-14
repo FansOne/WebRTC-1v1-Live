@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <script>
+      window.SITE_CONFIG = {};
+			window.SITE_CONFIG['BASE_URL'] = ''
+			window.SITE_CONFIG['error'] = ''
+			window.SITE_CONFIG['message'] = ''
+			window.SITE_CONFIG['TOKEN'] = ''
+			window.SITE_CONFIG['RESERVE_ID'] = '1332130887126487041'
+			window.SITE_CONFIG['USER_ROLE'] = 'TEACHER' //STUDENT TEACHER
+    </script>
+    
+    <div id="app"></div>
+
+    <!-- axios SDK -->
+    <script src="https://res.qcloudtiw.com/board/third/axios/axios.min.js"></script>
+
+    <!-- WebIM SDK -->
+    <script src="https://tic-res-1259648581.file.myqcloud.com/webim/webim.min.js"></script>
+    
+    <!-- COS SDK -->
+    <script src="https://res.qcloudtiw.com/board/third/cos/5.1.0/cos.min.js"></script>
+
+    <!-- 白板SDK -->
+    <script src="https://res.qcloudtiw.com/board/2.5.2/TEduBoard.min.js"></script>
+    
+    <!-- TIC -->
+    <script src="https://res.qcloudtiw.com/tic/2.5.1/TIC.min.js"></script>
+  </body>
+</html>

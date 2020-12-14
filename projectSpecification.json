@@ -1,0 +1,27 @@
+{
+    "sdkappid": 1400319273,
+    "roomId": "1252872316887502850",//AVChatRoom
+    "users": [
+        {
+            "userId": "樊鹏峥",
+            "userToken": "eJwtzV8LgjAUBfDvsueQO93MCb1ECFEm1CoDX5bb5BKK*Cei6Ltn6uP9ncO5HyL3J*dpGhIS1wGyGG-UpurQ4shZ7ytQWS8Ms1nPc8PnVqsfqq5Rk5AyAI8Kd*lNiXnV2JjBOecuAEzaYfk3HxgLKKNsXsFieOJVaaRi3R3lLSjuwtaHIJHrayQ2uzYpzft8kZalW4zzYkW*P95cNWk_"
+        },
+        {
+            "userId": "周同学",
+            "userToken": "eJyrVgrxCdYrSy1SslIy0jNQ0gHzM1NS80oy0zLBwjGlpiZmFiDSIBlIJpmZQVUVp2QnFhRkpihZGZoYGBgbWhqZG0NkUisKMotSgeKmpqZGBgYGENGSzFyQmJmBiYmFoYmxIdSUzHSgJVUmGaG*kf5ZSUWueWGWjmHFhaHFFmWe4Zn*URm*ZS7JRiaG5doRRjmJvia2SrUAhtM0pg__"
+        },
+        {
+            "userId": "马同学",
+            "userToken": "eJyrVgrxCdYrSy1SslIy0jNQ0gHzM1NS80oy0zLBwjGllolmyTGlpiYGIDLJzAyqqjglO7GgIDNFycrQxMDA2NDSyNwYIpNaUZBZlAoUNzU1NTIwMICIlmTmgsTMDExMLAxNTKGixZnpQEvKw-LSY-STtb1zXdKznCvcy92cg5yC8tw9PPKMvZPKMrNyQgNyPDyjYvSrnNNtlWoBI102AA__"
+        }
+    ],
+
+    "GlobalParams":{
+        "window.TicExample": "构造函数TicClass实例对象",
+        "window.trtcClient": "音视频实例对象",
+        "window.teduBoardInstance":"互动白板实例对象",
+        "window.TimInstance":"IM实例对象"
+    },
+
+    "prompt":"GlobalParams中的键通过TIC SDK初始化登录获取（互动白板、音视频实例获取需先加入房间群组），更多操作方法可参考对应实例文档进行调用。eg：window.trtcClient.leave()"
+}
